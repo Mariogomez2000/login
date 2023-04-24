@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c1{
+    border: 1px solid;
+    width: 400px;
+    height: 500px;
+    border-radius: 2rem;
+    color: #55FF44;
+}
+
+header{
+    border: 1px solid;
+    height: 7em;
+    border-radius: 2rem 2rem 0rem 0rem;
+    background-color: #D2FFCE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tex{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif;   
+    font-size: 25px; 
+}
+
+.logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.datos{
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#opci{
+    border: 1px solid #55FF44;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+    background-color: #D2FFCE;
+    padding-left: 10px;
+}
+
+#boton{
+    border: 1px solid #55FF44;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #D2FFCE;
+}
